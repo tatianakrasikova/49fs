@@ -4,8 +4,7 @@ function Homework02() {
     <div className="lesson-container">
       <h3>Homework 02</h3>  
       <ProfileCard/>
-      <ProfileCard/>
-      <ProfileCard/>
+      
       
 </div>
 );
