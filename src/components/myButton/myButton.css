@@ -12,7 +12,7 @@
 }
 
 .btn-danger {
-  background-color: red;
+  background-color: rgb(0, 115, 255);
 }
 
 .btn-primary:hover {
@@ -20,5 +20,18 @@
 }
 
 .btn-danger:hover {
-  background-color: rgb(255, 145, 145);
+  background-color: rgb(171, 255, 145);
+}
+.my-button {
+  padding: 10px 15px;
+  background-color: #9370db; /* сиреневый цвет */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.my-button:hover {
+  background-color: #7a5fb8; /* чуть темнее для эффекта наведения */
 }

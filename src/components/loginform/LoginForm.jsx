@@ -11,6 +11,7 @@ const LoginForm = () => {
             <MyInput name="email" type="email" placeholder="Введите email" label="Email" />
             <MyInput name="password" type="password" placeholder="Введите пароль" label="Пароль" />
             <MyButton type="submit">Войти</MyButton>
+            
         </form>
     );
 };

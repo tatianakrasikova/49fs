@@ -23,7 +23,7 @@ function Lesson03() {
       {/* имя для ключей props (text, func) мы придумываем самостоятельно */}
       {/* важно использовать эти же имена ключей в самом компоненте, когда вы встречаете данные */}
       <div>
-        <MyButton text={"Нажми меня!"} func={handleClick} isDanger={true} />
+        <MyButton  text={"Нажми меня!"} func={handleClick} isDanger={true} />
         <MyButton text={"Submit"} func={handleSubmit} isDanger={false} />
         <MyButton text={"Reset"} func={handleReset}  isDanger={false}  />
         {/* за счет значений props по умолчанию это кнопка имеет текст 'Click' и стилизацию danger и функцию handleDefaultClick */}

@@ -12,7 +12,7 @@ import './myButton.css'
 const handleDefaultClick = () => {
   console.log("default click!");
 };
-function MyButton({func=handleDefaultClick, isDanger=true, text='Click'}) {
+function MyButton({func=handleDefaultClick, isDanger=true, text='Click',myType='button'}) {
   return <button onClick={func} className={`my-button ${isDanger ? 'btn-danger': 'btn-primary'}`}>{text}</button>
 }
 
