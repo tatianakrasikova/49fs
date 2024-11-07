@@ -8,23 +8,24 @@
 }
 
 .btn-primary {
-  background-color: rgb(115, 115, 253);
+  background-color:  rgb(115, 115, 253);
 }
 
 .btn-danger {
-  background-color: rgb(0, 115, 255);
+  background-color:  rgb(253, 70, 70);
 }
 
 .btn-primary:hover {
   background-color: rgb(184, 184, 255);
+
 }
 
 .btn-danger:hover {
-  background-color: rgb(171, 255, 145);
+  background-color: rgb(255, 145, 145);
 }
 .my-button {
   padding: 10px 15px;
-  background-color: #9370db; /* сиреневый цвет */
+  background-color: #db70c77c; /* сиреневый цвет */
   color: #ffffff;
   border: none;
   border-radius: 5px;

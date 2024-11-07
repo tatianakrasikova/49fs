@@ -7,8 +7,12 @@ import Homework02 from "./homeworks/homework02/Homework02";
 import Lesson01 from "./lessons/lesson01/Lesson01";
 import Lesson03 from "./lessons/lesson03/Lesson03";
 import Homework03 from "./homeworks/homework03/Homework03";
+import Homework04 from "./homeworks/homework04/homework04";
 import Lesson04 from "./lessons/lesson04/lesson04";
-import Homework04 from "./homeworks/homework04/Homework";
+import Lesson05 from "./lessons/lesson05/Lesson05";
+
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // этот пустой тег - это react фрагмент
@@ -22,8 +26,9 @@ root.render(
     
     <Homework02/>
     <Homework03/>
+    <Homework04/>
     <Lesson03/>
     <Lesson04/>
-    <Homework04/>
+    <Lesson05/>
   </>
 );
